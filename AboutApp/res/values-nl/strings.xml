@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** 	 Copyright (C) 2008-2009 pjv (and others, see About dialog)
+** 
+** 	 This file is part of OI About.
+**
+**   OI About is free software: you can redistribute it and/or modify
+**   it under the terms of the GNU General Public License as published by
+**   the Free Software Foundation, either version 3 of the License, or
+**   (at your option) any later version.
+**
+**   OI About is distributed in the hope that it will be useful,
+**   but WITHOUT ANY WARRANTY; without even the implied warranty of
+**   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+**   GNU General Public License for more details.
+**
+**   You should have received a copy of the GNU General Public License
+**   along with OI About.  If not, see <http://www.gnu.org/licenses/>.
+**
+*/
+-->
+<resources>
+    
+	<!-- ***************************
+	     About information
+	     *************************** -->
+	
+	<!-- Automatically filled in by Launchpad: -->
+	<string name="about_translators">Launchpad Contributions:
+  Peli https://launchpad.net/~peli0101
+  pjv https://launchpad.net/~pjv</string>
+	
+	<!-- Explanation what this application does. It is a menu extension for other applications. -->
+	<string name="about_comments">Een op zichzelf staand infovenster dat gedeeld wordt tussen apps.</string>
+	
+	<!-- This is a link label. It will like to a page about "OI About" on the OpenIntents web site. ( http://www.openintents.org/en/node/191 ) -->
+	<string name="about_website_label">OI About op OpenIntents</string>
+	
+	<!-- ***************************
+	     Applicatio-specific strings
+	     *************************** -->
+	<!-- Application name. Can be localized, like "OI About", or "OI Info". 
+	   This is an extension that shows an about dialog or info dialog.  -->
+    <string name="app_name">OI About</string>
+	
+    <string name="menu_about">Info over OI About zelf</string>
+    
+    <!-- About some application, where "%s" is the name of another application. -->
+    <string name="about_activity_name_extended">Info over %s</string>
+    
+	<string name="l_authors">Geschreven door</string>
+	<string name="l_documenters">Gedocumenteerd door</string>
+	<string name="l_translators">Vertaald door</string>
+	<string name="l_artists">Grafisch werk door</string>
+	<string name="l_credits">Met dank aan</string>
+	<string name="l_license">Licentie</string>
+	<string name="l_info">Algemene info</string>
+	
+	<string name="no_information_available">Geen informatie beschikbaar.</string>
+</resources>
