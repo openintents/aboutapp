@@ -28,84 +28,84 @@
 	
 	<!-- Automatically filled in by Launchpad: -->
 	<string name="about_translators">Launchpad Contributions:
-  Arne Tobias Malkenes Ødegaard https://launchpad.net/~arne-tobias</string>
+  abc https://launchpad.net/~abc-g</string>
 	
 	<!-- Explanation what this application does. It is a menu extension for other applications. -->
-	<string name="about_comments">En enkeltstående informasjonsdialog som er delt mellom applikasjoner.</string>
+	<string name="about_comments">Isang nakapag-iisang tungkol na dyalogo na ibinabahagi sa pagitan ng mga app.</string>
 	
 	<!-- ***************************
 	     Distribution
 	     *************************** -->
 	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_filemanager">OI Filbehandler</string>
+	<string name="info_app_filemanager">OI File Manedyer</string>
 	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_shopping">OI Handleliste</string>
+	<string name="info_app_shopping">OI Listahan ng Bilihin</string>
 	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_notepad">OI Notatblokk</string>
+	<string name="info_app_notepad">OI Talaan</string>
 	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_safe">OI Safe</string>
+	<string name="info_app_safe">OI Kaha</string>
 	
 	<!-- %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") -->
-	<string name="info_instructions">Start %s og velg meny &gt; Om.</string>
+	<string name="info_instructions">Ilunsad ang %s at piliin ang menu &gt; Tungkol.</string>
 	
 	<!-- ***************************
 	     Applicatio-specific strings
 	     *************************** -->
 	<!-- Application name. Can be localized, like "OI About", or "OI Info". 
 	   This is an extension that shows an about dialog or info dialog.  -->
-    <string name="app_name">OI Info</string>
+    <string name="app_name">OI Tungkol</string>
 	
-    <string name="menu_about">Om OI Info</string>
+    <string name="menu_about">Tungkol OI Tungkol sa sarili</string>
     
     <!-- About some application, where "%s" is the name of another application. -->
-    <string name="about_activity_name_extended">Om %s</string>
+    <string name="about_activity_name_extended">Tungkol %s</string>
     
-	<string name="l_authors">Skrevet av</string>
-	<string name="l_documenters">Dokumentert av</string>
-	<string name="l_translators">Oversatt av</string>
-	<string name="l_artists">Kunstverk av</string>
-	<string name="l_international_translators">Internasjonale oversettelser av</string>
-	<string name="l_credits">Krediteringer</string>
-	<string name="l_license">Lisens</string>
-	<string name="l_info">Generell informasjon</string>
-	<string name="l_recent_changes">Nylige endringer</string>
+	<string name="l_authors">Isinulat ni</string>
+	<string name="l_documenters">Dokumentado ni</string>
+	<string name="l_translators">Isinalin ng</string>
+	<string name="l_artists">Likhang sining ni</string>
+	<string name="l_international_translators">Internasyonal na pagsasalin ni</string>
+	<string name="l_credits">Mga Kredito</string>
+	<string name="l_license">Lisensya</string>
+	<string name="l_info">Pangkalahatang Impormasyon</string>
+	<string name="l_recent_changes">Kamakailang mga pagbabago</string>
 	
-	<string name="no_information_available">Ingen informasjon tilgjengelig.</string>
+	<string name="no_information_available">Walang magagamit na impormasyon.</string>
 	
 	<!-- ***************************
 	     International languages
 	     *************************** -->
 	<!-- Language names. -->
     <string-array name="language_names">
-		<item>Arabisk</item>
-		<item>Tsjekkisk</item>
-		<item>Dansk</item>
-		<item>Tysk</item>
-		<item>Engelsk</item>
-		<item>Gresk</item>
-		<item>Spansk</item>
-		<item>Persisk</item>
-		<item>Finsk</item>
-		<item>Færøysk</item>
-		<item>Fransk</item>
-		<item>Kroatisk</item>
-		<item>Ungarsk</item>
-		<item>Italiensk</item>
-		<item>Japansk</item>
-		<item>Koreansk</item>
-		<item>Laotisk</item>
-		<item>Nederlandsk</item>
-		<item>Oksitansk (etter 1500)</item>
-		<item>Polsk</item>
-		<item>Portugisisk</item>
-		<item>Brasiliansk Portugisisk</item>
-		<item>Rumensk</item>
-		<item>Russisk</item>
-		<item>Sardinske</item>
-		<item>Slovakisk</item>
-		<item>Svensk</item>
-		<item>Tyrkisk</item>
-		<item>Kinesisk (Forenklet)</item>
-		<item>Kinesisk (Tradisjonelt)</item>
+		<item>Arabo</item>
+		<item>Tsek</item>
+		<item>Danish</item>
+		<item>Aleman</item>
+		<item>Ingles</item>
+		<item>Griyego</item>
+		<item>Kastila</item>
+		<item>Persyano</item>
+		<item>Finnish</item>
+		<item>Faroese</item>
+		<item>Pranses</item>
+		<item>Kroatyano</item>
+		<item>Hanggaryan</item>
+		<item>Italiyano</item>
+		<item>Hapon</item>
+		<item>Koreano</item>
+		<item>Lao</item>
+		<item>Olandes</item>
+		<item>Occitan (paskil 1500)</item>
+		<item>Polish</item>
+		<item>Portuges</item>
+		<item>Portuges ng Brasil</item>
+		<item>Romano</item>
+		<item>Ruso</item>
+		<item>Sardiniyan</item>
+		<item>Eslobako</item>
+		<item>Suweko</item>
+		<item>Turko</item>
+		<item>Tsino (Pinasimple)</item>
+		<item>Tsino (Tradisyonal)</item>
 	</string-array>
 </resources>
