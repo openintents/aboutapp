@@ -28,55 +28,49 @@
 	
 	<!-- Automatically filled in by Launchpad: -->
 	<string name="about_translators">Launchpad Contributions:
-  Andrew Mike https://launchpad.net/~logomancer
-  Feder Sáiz https://launchpad.net/~federsaiz-deactivatedaccount
-  Fitoschido https://launchpad.net/~fitoschido
-  Jonay https://launchpad.net/~jonay-santana
-  Martín González https://launchpad.net/~mgonzlezgmz
-  OpenIntents devs https://launchpad.net/~openintents-devs
-  Paco Molinero https://launchpad.net/~franciscomol</string>
+  Janeth Vargas https://launchpad.net/~janeth-vz-1</string>
 	
 	<!-- Explanation what this application does. It is a menu extension for other applications. -->
-	<string name="about_comments">Un diálogo «Acerca de» autónomo que se comparte entre aplicaciones.</string>
+	<string name="about_comments">O diálogo que é compartilhado entre os aplicativos.</string>
 	
 	<!-- ***************************
 	     Distribution
 	     *************************** -->
 	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_filemanager">OI File Manager</string>
+	<string name="info_app_filemanager">OI Gerenciador de Arquivos</string>
 	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_shopping">Lista de compras OI</string>
+	<string name="info_app_shopping">OI Lista de Compras</string>
 	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_notepad">Bloc de notas OI</string>
+	<string name="info_app_notepad">OI Bloco de notas</string>
 	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_safe">OI Safe</string>
+	<string name="info_app_safe">OI Seguro</string>
 	
 	<!-- %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") -->
-	<string name="info_instructions">Abra %s y seleccione el menú &gt; Acerca de.</string>
+	<string name="info_instructions">Iniciar %s e selecionar menu &gt; Sobre.</string>
 	
 	<!-- ***************************
 	     Applicatio-specific strings
 	     *************************** -->
 	<!-- Application name. Can be localized, like "OI About", or "OI Info". 
 	   This is an extension that shows an about dialog or info dialog.  -->
-    <string name="app_name">OI About</string>
+    <string name="app_name">OI Sobre</string>
 	
-    <string name="menu_about">Acerca de OI About</string>
+    <string name="menu_about">Sobre OI Sobre si mesmo</string>
     
     <!-- About some application, where "%s" is the name of another application. -->
-    <string name="about_activity_name_extended">Acerca de %s</string>
+    <string name="about_activity_name_extended">Sobre %s</string>
     
 	<string name="l_authors">Escrito por</string>
 	<string name="l_documenters">Documentado por</string>
-	<string name="l_translators">Traducido por</string>
-	<string name="l_artists">Arte por</string>
-	<string name="l_international_translators">Traduciones internationales por</string>
+	<string name="l_translators">Traduzido por</string>
+	<string name="l_artists">Trabalho de Artes feito por</string>
+	<string name="l_international_translators">Traduções internacionais por</string>
 	<string name="l_credits">Créditos</string>
-	<string name="l_license">Licencia</string>
-	<string name="l_info">Información general</string>
-	<string name="l_recent_changes">Cambios recientes</string>
+	<string name="l_license">Licença</string>
+	<string name="l_info">Informação Geral</string>
+	<string name="l_recent_changes">Alterações recentes</string>
 	
-	<string name="no_information_available">No hay información disponible.</string>
+	<string name="no_information_available">Não há informação disponível.</string>
 	
 	<!-- ***************************
 	     International languages
@@ -84,48 +78,48 @@
 	<!-- Language names. -->
     <string-array name="language_names">
 		<item>Árabe</item>
-		<item>Bielorruso</item>
+		<item>Bielorusso</item>
 		<item>Búlgaro</item>
-		<item>Catalán</item>
-		<item>Checo</item>
-		<item>Danés</item>
-		<item>Alemán</item>
-		<item>Griego</item>
-		<item>Inglés</item>
-		<item>Inglés (Reino Unido)</item>
-		<item>Español</item>
+		<item>Catalão</item>
+		<item>Tcheco</item>
+		<item>Dinamarquês</item>
+		<item>Alemão</item>
+		<item>Grego</item>
+		<item>Inglês</item>
+		<item>Inglês (Reino Unido)</item>
+		<item>Espanhol</item>
 		<item>Persa</item>
-		<item>Finlandés</item>
-		<item>Feroés</item>
-		<item>Francés</item>
+		<item>Finlandês</item>
+		<item>Faroês</item>
+		<item>Francês</item>
 		<item>Hindi</item>
 		<item>Croata</item>
-		<item>Húngaro</item>
+		<item>Húngaro</item>
 		<item>Italiano</item>
-		<item>Hebreo</item>
-		<item>Japonés</item>
+		<item>Hebraico</item>
+		<item>Japonês</item>
 		<item>Coreano</item>
-		<item>Laosiano</item>
-		<item>Letón</item>
-		<item>Macedonio</item>
-		<item>Noruego (bokmål)</item>
-		<item>Neerlandés</item>
-		<item>Occitano (después de 1500)</item>
-		<item>Punyabí</item>
-		<item>Polaco</item>
-		<item>Portugués</item>
-		<item>Portugués brasileño</item>
-		<item>Rumano</item>
-		<item>Ruso</item>
+		<item>Lao</item>
+		<item>Letão</item>
+		<item>Macedônio</item>
+		<item>Norueguês Bokmal</item>
+		<item>Holandês</item>
+		<item>Occitano (após 1500)</item>
+		<item>Panjabi</item>
+		<item>Polonês</item>
+		<item>Português</item>
+		<item>Português Brasileiro</item>
+		<item>Romeno</item>
+		<item>Russo</item>
 		<item>Sardo</item>
-		<item>Sindhi</item>
+		<item>Sindi</item>
 		<item>Eslovaco</item>
 		<item>Esloveno</item>
 		<item>Sueco</item>
 		<item>Tagalo</item>
 		<item>Turco</item>
 		<item>Uigur</item>
-		<item>Chino (Simplificado)</item>
-		<item>Chino (Tradicional)</item>
+		<item>Chinês (Simplificado)</item>
+		<item>Chinês (Tradicional)</item>
 	</string-array>
 </resources>
