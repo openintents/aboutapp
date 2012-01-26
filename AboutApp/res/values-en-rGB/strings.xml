@@ -28,15 +28,10 @@
 	
 	<!-- Automatically filled in by Launchpad: -->
 	<string name="about_translators">Launchpad Contributions:
-  Joao Nogueira https://launchpad.net/~whipx
-  Peli https://launchpad.net/~peli0101
-  Sérgio Marques https://launchpad.net/~sergio+marques
-  Tiago Silva https://launchpad.net/~tiagosilva
-  miguel narciso https://launchpad.net/~as1309831
-  nglnx https://launchpad.net/~nglnx</string>
+  mrx5682 https://launchpad.net/~mrx5682</string>
 	
 	<!-- Explanation what this application does. It is a menu extension for other applications. -->
-	<string name="about_comments">Uma aplicação de informações transversais das aplicações.</string>
+	<string name="about_comments">A standalone about dialog that is shared between apps.</string>
 	
 	<!-- ***************************
 	     Distribution
@@ -51,7 +46,7 @@
 	<string name="info_app_safe">OI Safe</string>
 	
 	<!-- %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") -->
-	<string name="info_instructions">Inicie o %s e selecione o menu &gt; Sobre</string>
+	<string name="info_instructions">Launch %s and select menu &gt; About.</string>
 	
 	<!-- ***************************
 	     Applicatio-specific strings
@@ -60,71 +55,71 @@
 	   This is an extension that shows an about dialog or info dialog.  -->
     <string name="app_name">OI About</string>
 	
-    <string name="menu_about">Sobre OI About</string>
+    <string name="menu_about">About OI About itself</string>
     
     <!-- About some application, where "%s" is the name of another application. -->
-    <string name="about_activity_name_extended">Sobre %s</string>
+    <string name="about_activity_name_extended">About %s</string>
     
-	<string name="l_authors">Escrito por</string>
-	<string name="l_documenters">Documentado por</string>
-	<string name="l_translators">Traduzido por</string>
-	<string name="l_artists">Ilustrações por</string>
-	<string name="l_international_translators">Traduções internacionais por</string>
-	<string name="l_credits">Créditos</string>
-	<string name="l_license">Licença</string>
-	<string name="l_info">Informações gerais</string>
-	<string name="l_recent_changes">Alterações recentes</string>
+	<string name="l_authors">Written by</string>
+	<string name="l_documenters">Documented by</string>
+	<string name="l_translators">Translated by</string>
+	<string name="l_artists">Artwork by</string>
+	<string name="l_international_translators">International translations by</string>
+	<string name="l_credits">Credits</string>
+	<string name="l_license">License</string>
+	<string name="l_info">General Info</string>
+	<string name="l_recent_changes">Recent changes</string>
 	
-	<string name="no_information_available">Informação não disponivel.</string>
+	<string name="no_information_available">No information available.</string>
 	
 	<!-- ***************************
 	     International languages
 	     *************************** -->
 	<!-- Language names. -->
     <string-array name="language_names">
-		<item>Árabe</item>
-		<item>Bielorrusso</item>
-		<item>Búlgaro</item>
-		<item>Catalão</item>
-		<item>Checo</item>
-		<item>Dinamarquês</item>
-		<item>Alemão</item>
-		<item>Grego</item>
-		<item>Inglês</item>
-		<item>Inglês (Reino Unido)</item>
-		<item>Espanhol</item>
-		<item>Persa</item>
-		<item>Finlandês</item>
-		<item>Faroês</item>
-		<item>Francês</item>
-		<item>Hindu</item>
-		<item>Croata</item>
-		<item>Húngaro</item>
-		<item>Italiano</item>
-		<item>Hebraico</item>
-		<item>Japonês</item>
-		<item>Coreano</item>
-		<item>Laoês</item>
-		<item>Letão</item>
-		<item>Macedónio</item>
-		<item>Norueguês Bokmal</item>
-		<item>Holandês</item>
-		<item>Occitano (após 1500)</item>
+		<item>Arabic</item>
+		<item>Belarusian</item>
+		<item>Bulgarian</item>
+		<item>Catalan</item>
+		<item>Czech</item>
+		<item>Danish</item>
+		<item>German</item>
+		<item>Greek</item>
+		<item>English</item>
+		<item>English (United Kingdom)</item>
+		<item>Spanish</item>
+		<item>Persian</item>
+		<item>Finnish</item>
+		<item>Faroese</item>
+		<item>French</item>
+		<item>Hindi</item>
+		<item>Croatian</item>
+		<item>Hungarian</item>
+		<item>Italian</item>
+		<item>Hebrew</item>
+		<item>Japanese</item>
+		<item>Korean</item>
+		<item>Lao</item>
+		<item>Latvian</item>
+		<item>Macedonian</item>
+		<item>Norwegian Bokmal</item>
+		<item>Dutch</item>
+		<item>Occitan (post 1500)</item>
 		<item>Punjabi</item>
-		<item>Polaco</item>
-		<item>Português</item>
-		<item>Português do Brasil</item>
-		<item>Romeno</item>
-		<item>Russo</item>
-		<item>Sardenho</item>
+		<item>Polish</item>
+		<item>Portuguese</item>
+		<item>Brazilian Portuguese</item>
+		<item>Romanian</item>
+		<item>Russian</item>
+		<item>Sardinian</item>
 		<item>Sindhi</item>
-		<item>Eslovaco</item>
-		<item>Esloveno</item>
-		<item>Sueco</item>
-		<item>Tagaloge</item>
-		<item>Turco</item>
+		<item>Slovak</item>
+		<item>Slovenian</item>
+		<item>Swedish</item>
+		<item>Tagalog</item>
+		<item>Turkish</item>
 		<item>Uyghur</item>
-		<item>Mandarim (Simplificado)</item>
-		<item>Mandarim (Tradicional)</item>
+		<item>Chinese (Simplified)</item>
+		<item>Chinese (Traditional)</item>
 	</string-array>
 </resources>

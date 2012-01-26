@@ -2,12 +2,12 @@
 OI About
 
 # Promo text:
-En separat dialog som deles mellem programmer.
+A standalone about dialog that is shared between apps.
 
 # Description:
-OI About is a standalone about dialog that is shared between apps. This application is invoked through the menu of other OI applications. It allows you to view version information, links, credits, and license of an application. Credits include authors, documentation, translators, and artists. All of this functionality is brought together in a simplistic and efficient layout. 
+OI About is a standalone about dialogue that is shared between apps. This application is invoked through the menu of other OI applications. It allows you to view version information, links, credits, and license of an application. Credits include authors, documentation, translators, and artists. All of this functionality is brought together in a simplistic and efficient layout. 
 
-Dette program er reklamefrit og kræver ikke internetadgang. 
+This application is ad free and does not require the internet permission. 
 
 The source code of this free and open source application is available at: 
 http://code.google.com/p/openintents
