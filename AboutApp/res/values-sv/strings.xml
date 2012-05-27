@@ -28,100 +28,98 @@
 	
 	<!-- Automatically filled in by Launchpad: -->
 	<string name="about_translators">Launchpad Contributions:
-  Dvir Oren https://launchpad.net/~dvir0776
-  OpenIntents devs https://launchpad.net/~openintents-devs
-  Yaron https://launchpad.net/~sh-yaron</string>
+  Carl Fredrik Sima https://launchpad.net/~cf-sima</string>
 	
 	<!-- Explanation what this application does. It is a menu extension for other applications. -->
-	<string name="about_comments">דיאלוג נפרד שנחלק בין אפליקציות.</string>
+	<string name="about_comments">Fristående "Om"-dialog som delas mellan applikationer.</string>
 	
 	<!-- ***************************
 	     Distribution
 	     *************************** -->
 	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_filemanager">מנהל קבצים OI</string>
+	<string name="info_app_filemanager">OI File Manager</string>
 	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_shopping">רשימת קנייה OI</string>
+	<string name="info_app_shopping">OI Shopping List</string>
 	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_notepad">פנקס OI</string>
+	<string name="info_app_notepad">OI Notepad</string>
 	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_safe">כספת OI</string>
+	<string name="info_app_safe">OI Safe</string>
 	
 	<!-- %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") -->
-	<string name="info_instructions">פתח את %s ובחר תפריט &gt; אודות</string>
+	<string name="info_instructions">Launch %s and select menu &gt; About.</string>
 	
 	<!-- ***************************
 	     Applicatio-specific strings
 	     *************************** -->
 	<!-- Application name. Can be localized, like "OI About", or "OI Info". 
 	   This is an extension that shows an about dialog or info dialog.  -->
-    <string name="app_name">אודות OI</string>
+    <string name="app_name">OI About</string>
 	
-    <string name="menu_about">אודות OI על עצמו</string>
+    <string name="menu_about">Om OI About</string>
     
     <!-- About some application, where "%s" is the name of another application. -->
-    <string name="about_activity_name_extended">אודות %s</string>
+    <string name="about_activity_name_extended">Om %s</string>
     
-	<string name="l_authors">נכתב על-ידי</string>
-	<string name="l_documenters">תועד על ידי</string>
-	<string name="l_translators">תורגם על ידי</string>
-	<string name="l_artists">אומנות על ידי</string>
-	<string name="l_international_translators">תרגומים בינ"ל על ידי</string>
-	<string name="l_credits">קרדיטים</string>
-	<string name="l_license">רשיון</string>
-	<string name="l_info">מידע כללי</string>
-	<string name="l_recent_changes">שינויים אחרונים</string>
+	<string name="l_authors">Written by</string>
+	<string name="l_documenters">Documented by</string>
+	<string name="l_translators">Translated by</string>
+	<string name="l_artists">Artwork by</string>
+	<string name="l_international_translators">International translations by</string>
+	<string name="l_credits">Credits</string>
+	<string name="l_license">License</string>
+	<string name="l_info">General Info</string>
+	<string name="l_recent_changes">Recent changes</string>
 	
-	<string name="no_information_available">אין מידע זמין.</string>
+	<string name="no_information_available">No information available.</string>
 	
 	<!-- ***************************
 	     International languages
 	     *************************** -->
 	<!-- Language names. -->
     <string-array name="language_names">
-		<item>ערבית</item>
+		<item>Arabic</item>
 		<item>Belarusian</item>
 		<item>Bulgarian</item>
 		<item>Catalan</item>
-		<item>צ\'כית</item>
-		<item>דנית</item>
-		<item>גמרנית</item>
-		<item>יוונית</item>
-		<item>אנגלית</item>
+		<item>Czech</item>
+		<item>Danish</item>
+		<item>German</item>
+		<item>Greek</item>
+		<item>English</item>
 		<item>English (United Kingdom)</item>
-		<item>ספרדית</item>
-		<item>פרסית</item>
-		<item>פינית</item>
-		<item>פארואזית</item>
-		<item>צרפתית</item>
+		<item>Spanish</item>
+		<item>Persian</item>
+		<item>Finnish</item>
+		<item>Faroese</item>
+		<item>French</item>
 		<item>Hindi</item>
-		<item>קרואטית</item>
-		<item>הונגרית</item>
-		<item>איטלקית</item>
+		<item>Croatian</item>
+		<item>Hungarian</item>
+		<item>Italian</item>
 		<item>Hebrew</item>
-		<item>יפנית</item>
-		<item>קוריאנית</item>
-		<item>לאו</item>
+		<item>Japanese</item>
+		<item>Korean</item>
+		<item>Lao</item>
 		<item>Latvian</item>
 		<item>Macedonian</item>
 		<item>Norwegian Bokmal</item>
-		<item>הולנדית</item>
-		<item>אוסיטן (אחרי 1500)</item>
+		<item>Dutch</item>
+		<item>Occitan (post 1500)</item>
 		<item>Punjabi</item>
-		<item>פולנית</item>
-		<item>פורטוגזית</item>
-		<item>פורטוגזית ברזילאית</item>
-		<item>רומנית</item>
-		<item>רוסית</item>
-		<item>סרדינית</item>
+		<item>Polish</item>
+		<item>Portuguese</item>
+		<item>Brazilian Portuguese</item>
+		<item>Romanian</item>
+		<item>Russian</item>
+		<item>Sardinian</item>
 		<item>Sindhi</item>
-		<item>סלובקית</item>
+		<item>Slovak</item>
 		<item>Slovenian</item>
-		<item>שוודית</item>
+		<item>Swedish</item>
 		<item>Tagalog</item>
-		<item>טורקית</item>
+		<item>Turkish</item>
 		<item>Uyghur</item>
-		<item>סינית מפושטת</item>
-		<item>סינית (מסורתית)</item>
+		<item>Chinese (Simplified)</item>
+		<item>Chinese (Traditional)</item>
 	</string-array>
 </resources>

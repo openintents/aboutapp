@@ -28,6 +28,7 @@
 	
 	<!-- Automatically filled in by Launchpad: -->
 	<string name="about_translators">Launchpad Contributions:
+  Maarten de Vries https://launchpad.net/~maarten-k-de-vries
   Menno Vogel https://launchpad.net/~mennovogel90
   OpenIntents devs https://launchpad.net/~openintents-devs
   Peli https://launchpad.net/~peli0101
@@ -81,15 +82,15 @@
 	<!-- Language names. -->
     <string-array name="language_names">
 		<item>Arabisch</item>
-		<item>Belarusian</item>
-		<item>Bulgarian</item>
-		<item>Catalan</item>
+		<item>Wit-Russisch (Belarussisch)</item>
+		<item>Bulgaars</item>
+		<item>Catalaans</item>
 		<item>Tsjechisch</item>
 		<item>Deens</item>
 		<item>Duits</item>
 		<item>Grieks</item>
 		<item>Engels</item>
-		<item>English (United Kingdom)</item>
+		<item>Engels (Verenigd Koninkrijk)</item>
 		<item>Spaans</item>
 		<item>Perzisch</item>
 		<item>Fins</item>
@@ -99,13 +100,13 @@
 		<item>Kroatisch</item>
 		<item>Hongaars</item>
 		<item>Italiaans</item>
-		<item>Hebrew</item>
+		<item>Hebreeuws</item>
 		<item>Japans</item>
 		<item>Koreaans</item>
 		<item>Laotiaans</item>
-		<item>Latvian</item>
-		<item>Macedonian</item>
-		<item>Norwegian Bokmal</item>
+		<item>Lets</item>
+		<item>Macedonisch</item>
+		<item>Noors Bokmål</item>
 		<item>Nederlands</item>
 		<item>Occitaans (na 1500)</item>
 		<item>Punjabi</item>
@@ -117,7 +118,7 @@
 		<item>Sardisch</item>
 		<item>Sindhi</item>
 		<item>Slowaaks</item>
-		<item>Slovenian</item>
+		<item>Sloveens</item>
 		<item>Zweeds</item>
 		<item>Tagalog</item>
 		<item>Turks</item>

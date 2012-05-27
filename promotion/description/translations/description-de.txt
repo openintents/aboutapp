@@ -18,8 +18,8 @@ http://www.openintents.org
 Sie können uns mit der Verbesserung der Übersetzung in ihre Sprache auf Launchpad unterstützen: 
 https://translations.launchpad.net/openintents/trunk
 
-Eigentschaften: 
-* Zeigt allgemeine Informationen, Danksagungen und Lizenztabs
+Leistungsmerkmale: 
+* Die Reiter Allgemeine Informationen, Danksagungen und Lizenz anzeigen.
 * Zeigt die Übersetzer aller Sprachversionen
 * Holt Informationen über eine Anwendungen über Standard Tags und Metadaten.
 * Optional können alle Felder über Intent Extras verändert werden.
