@@ -1,5 +1,4 @@
-ກ່ຽວກັບ OI
-OI에 대하여
+OI  जे बारे में
 OI About
 OI Hakkında
 OI Info
@@ -7,14 +6,15 @@ OI O Programe
 OI Quant a
 OI Sobre
 OI Tungkol
-OI درباره
-OI ھەققىدە
 OI Σχετικά
 OI А праграме
 OI За
+OI درباره
+OI ھەققىدە
 OI के बारे में
-OI  जे बारे में
 OI简介
-عن OI
-אודות OI
+OI에 대하여
 За OI
+אודות OI
+عن OI
+ກ່ຽວກັບ OI

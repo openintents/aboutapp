@@ -83,15 +83,15 @@ Launchpad Contributions:
 	<!-- Language names. -->
     <string-array name="language_names">
 		<item>Arapça</item>
-		<item>Belarusian</item>
-		<item>Bulgarian</item>
-		<item>Catalan</item>
+		<item>Belarus dili</item>
+		<item>Bulgarca</item>
+		<item>Katalonca</item>
 		<item>Çekçe</item>
 		<item>Danimarkaca</item>
 		<item>Almanca</item>
 		<item>Yunanca</item>
 		<item>İngilizce</item>
-		<item>English (United Kingdom)</item>
+		<item>İngilizce (Birleşik Krallık)</item>
 		<item>İspanyolca</item>
 		<item>Farsça</item>
 		<item>Fince</item>
@@ -101,16 +101,16 @@ Launchpad Contributions:
 		<item>Hırvatça</item>
 		<item>Macarca</item>
 		<item>İtalyanca</item>
-		<item>Hebrew</item>
+		<item>İbranice</item>
 		<item>Japonca</item>
 		<item>Korece</item>
 		<item>Lao Dili</item>
-		<item>Latvian</item>
-		<item>Macedonian</item>
+		<item>Letonca</item>
+		<item>Makedonca</item>
 		<item>Norwegian Bokmal</item>
 		<item>Flemenkçe</item>
 		<item>Eski Katalanca (1500 yılından sonra)</item>
-		<item>Punjabi</item>
+		<item>Pencapça</item>
 		<item>Lehçe</item>
 		<item>Portekizce</item>
 		<item>Brezilya Portekizcesi</item>
@@ -119,11 +119,11 @@ Launchpad Contributions:
 		<item>Sardunyaca</item>
 		<item>Sindhi</item>
 		<item>Slovakça</item>
-		<item>Slovenian</item>
+		<item>Slovence</item>
 		<item>İsveççe</item>
 		<item>Tagalog</item>
 		<item>Türkçe</item>
-		<item>Uyghur</item>
+		<item>Uygurca</item>
 		<item>Çince (Basitleştirilmiş)</item>
 		<item>Çince (Geleneksel)</item>
 	</string-array>
