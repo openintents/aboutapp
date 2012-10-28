@@ -1,178 +1,132 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/sv_info"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fadingEdge="vertical"
-    android:gravity="top"
-    android:scrollbars="vertical" >
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="4dp" >
 
     <LinearLayout
-        android:id="@+id/ll_info"
+        android:id="@+id/top"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:orientation="vertical"
-        android:paddingRight="?android:attr/scrollbarSize" >
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
 
         <ImageSwitcher
             android:id="@+id/i_logo"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dip"
             android:paddingBottom="15sp" >
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:scaleType="centerInside" >
             </ImageView>
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:scaleType="centerInside" >
             </ImageView>
         </ImageSwitcher>
 
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@color/separator_secondary" />
+
         <TextSwitcher
             android:id="@+id/t_program_name_and_version"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="15sp" >
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autoLink="all"
-                android:gravity="center"
-                android:textColor="@android:color/white"
-                android:textSize="28sp"
-                android:textStyle="bold" />
+            <org.openintents.about.view.RobotoLightTextView style="@style/all_title" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autoLink="all"
-                android:gravity="center"
-                android:textColor="@android:color/white"
-                android:textSize="28sp"
-                android:textStyle="bold" />
+            <org.openintents.about.view.RobotoLightTextView style="@style/all_title" />
         </TextSwitcher>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/top_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/top"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/separator" />
+
+    <TextSwitcher
+        android:id="@+id/t_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <TextView style="@style/info_email_copyright_website" />
+
+        <TextView style="@style/info_email_copyright_website" />
+    </TextSwitcher>
+
+    <TextSwitcher
+        android:id="@+id/t_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/t_email"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            style="@style/info_email_copyright_website"
+            android:autoLink="none" />
+
+        <TextView
+            style="@style/info_email_copyright_website"
+            android:autoLink="none" />
+    </TextSwitcher>
+
+    <TextSwitcher
+        android:id="@+id/t_copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/t_website"
+        android:layout_centerHorizontal="true" >
+
+        <TextView style="@style/info_email_copyright_website" />
+
+        <TextView style="@style/info_email_copyright_website" />
+    </TextSwitcher>
+
+    <View
+        android:id="@+id/bottom_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/t_copyright"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/separator_secondary" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_separator"
+        android:layout_below="@id/top_separator" >
 
         <TextSwitcher
             android:id="@+id/t_comments"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="15sp" >
+            android:layout_height="wrap_content" >
 
-            <TextView
-                style="@android:style/TextAppearance.Medium"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autoLink="all" />
+            <TextView style="@style/info_comments" />
 
-            <TextView
-                style="@android:style/TextAppearance.Medium"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autoLink="all" />
+            <TextView style="@style/info_comments" />
         </TextSwitcher>
+    </ScrollView>
 
-        <TextSwitcher
-            android:id="@+id/t_website"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="15sp" >
-
-            <TextView
-                style="@android:style/TextAppearance.Medium"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center" />
-
-            <TextView
-                style="@android:style/TextAppearance.Medium"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center" />
-        </TextSwitcher>
-
-        <TextSwitcher
-            android:id="@+id/t_copyright"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="15sp" >
-
-            <TextView
-                style="@android:style/TextAppearance.Small"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autoLink="web|email|map"
-                android:gravity="center" />
-
-            <TextView
-                style="@android:style/TextAppearance.Small"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autoLink="web|email|map"
-                android:gravity="center" />
-        </TextSwitcher>
-
-        <LinearLayout
-            android:id="@+id/ll_email"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="15dip"
-            android:orientation="horizontal" >
-
-            <ImageSwitcher
-                android:id="@+id/i_email"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dip" >
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:scaleType="centerInside" >
-                </ImageView>
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:scaleType="centerInside" >
-                </ImageView>
-            </ImageSwitcher>
-
-            <TextSwitcher
-                android:id="@+id/t_email"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center" >
-
-                <TextView
-                    style="@android:style/TextAppearance.Medium"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:autoLink="all"
-                    android:gravity="center"
-                    android:linksClickable="true"
-                    android:selectAllOnFocus="true" />
-
-                <TextView
-                    style="@android:style/TextAppearance.Medium"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:autoLink="all"
-                    android:gravity="center"
-                    android:linksClickable="true"
-                    android:selectAllOnFocus="true" />
-            </TextSwitcher>
-        </LinearLayout>
-    </LinearLayout>
-
-</ScrollView>
+</RelativeLayout>

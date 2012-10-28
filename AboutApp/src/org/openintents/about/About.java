@@ -95,7 +95,6 @@ public class About extends TabActivity {
 	 * The views.
 	 */
 	protected ImageSwitcher mLogoImage;
-	protected ImageSwitcher mEmailImage;
 	protected TextSwitcher mProgramNameAndVersionText;
 	protected TextSwitcher mCommentsText;
 	protected TextSwitcher mCopyrightText;
@@ -743,10 +742,11 @@ public class About extends TabActivity {
 			intent, AboutIntents.EXTRA_EMAIL, AboutMetaData.METADATA_EMAIL);
 		
 		if (!TextUtils.isEmpty(email)) {
-			mEmailImage.setImageResource(android.R.drawable.ic_dialog_email);
 			mEmailText.setText(email);
-		} else {
-			mEmailImage.setImageURI(null);
+			mEmailText.setVisibility(View.VISIBLE);
+		} 
+		else {
+			mEmailText.setVisibility(View.GONE);
 		}
 	}
 
@@ -840,12 +840,6 @@ public class About extends TabActivity {
         mLogoImage.setInAnimation(in);
         mLogoImage.setOutAnimation(out);
 
-        mEmailImage = (ImageSwitcher) findViewById(R.id.i_email);
-        mEmailImage.setInAnimation(in);
-        //mEmailImage.setOutAnimation(out);
-            // Strange bug: setting the out animation results in the envelope image
-        	// appearing and disappearing if one clicks on the email link repeatedly.
-		
         mProgramNameAndVersionText = (TextSwitcher) 
         		findViewById(R.id.t_program_name_and_version);
 		mProgramNameAndVersionText.setInAnimation(in);
@@ -863,10 +857,6 @@ public class About extends TabActivity {
 		mWebsiteText.setInAnimation(in);
 		mWebsiteText.setOutAnimation(out);
 
-        mEmailImage = (ImageSwitcher) findViewById(R.id.i_email);
-        mEmailImage.setInAnimation(in);
-        mEmailImage.setOutAnimation(out);
-		
 		mEmailText = (TextSwitcher) findViewById(R.id.t_email);
 		mEmailText.setInAnimation(in);
 		mEmailText.setOutAnimation(out);
