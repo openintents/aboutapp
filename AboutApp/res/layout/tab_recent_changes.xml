@@ -1,16 +1,14 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/sv_recent_changes"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fadingEdge="vertical" >
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="4dp" >
 
     <TextView
         android:id="@+id/et_recent_changes"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:autoLink="web|email|map"
-        android:paddingBottom="20dip"
-        android:paddingRight="?android:attr/scrollbarSize"
-        android:textColor="#ffffffff" />
+        style="@style/all_content"
+        android:paddingLeft="0dp" />
 
 </ScrollView>
