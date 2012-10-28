@@ -1,0 +1,178 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv_info"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="vertical"
+    android:gravity="top"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="?android:attr/scrollbarSize" >
+
+        <ImageSwitcher
+            android:id="@+id/i_logo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:paddingBottom="15sp" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside" >
+            </ImageView>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside" >
+            </ImageView>
+        </ImageSwitcher>
+
+        <TextSwitcher
+            android:id="@+id/t_program_name_and_version"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15sp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+        </TextSwitcher>
+
+        <TextSwitcher
+            android:id="@+id/t_comments"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15sp" >
+
+            <TextView
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all" />
+
+            <TextView
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="all" />
+        </TextSwitcher>
+
+        <TextSwitcher
+            android:id="@+id/t_website"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15sp" >
+
+            <TextView
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+            <TextView
+                style="@android:style/TextAppearance.Medium"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+        </TextSwitcher>
+
+        <TextSwitcher
+            android:id="@+id/t_copyright"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15sp" >
+
+            <TextView
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web|email|map"
+                android:gravity="center" />
+
+            <TextView
+                style="@android:style/TextAppearance.Small"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web|email|map"
+                android:gravity="center" />
+        </TextSwitcher>
+
+        <LinearLayout
+            android:id="@+id/ll_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dip"
+            android:orientation="horizontal" >
+
+            <ImageSwitcher
+                android:id="@+id/i_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside" >
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside" >
+                </ImageView>
+            </ImageSwitcher>
+
+            <TextSwitcher
+                android:id="@+id/t_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <TextView
+                    style="@android:style/TextAppearance.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:gravity="center"
+                    android:linksClickable="true"
+                    android:selectAllOnFocus="true" />
+
+                <TextView
+                    style="@android:style/TextAppearance.Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="all"
+                    android:gravity="center"
+                    android:linksClickable="true"
+                    android:selectAllOnFocus="true" />
+            </TextSwitcher>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
