@@ -24,8 +24,8 @@
     android:layout_height="match_parent" >
     
     <!-- Having the tabs at the bottom would be better but it seems this is not easily possible. pjv 2008-12-31 -->
-    <include layout="@layout/tab_info" />
-    <include layout="@layout/tab_credits" />
-    <include layout="@layout/tab_license" />
-    <include layout="@layout/tab_recent_changes" />
+    <include layout="@layout/tab_info" android:id="@+id/info" />
+    <include layout="@layout/tab_credits" android:id="@+id/credits" />
+    <include layout="@layout/tab_license" android:id="@+id/license" />
+    <include layout="@layout/tab_recent_changes" android:id="@+id/recent_changes" />
 </FrameLayout>

@@ -808,13 +808,13 @@ public class About extends TabActivity {
         
         tabHost.addTab(tabHost.newTabSpec(getString(R.string.l_info))
                 .setIndicator(getString(R.string.l_info))
-                .setContent(R.id.sv_info));
+                .setContent(R.id.info));
         tabHost.addTab(tabHost.newTabSpec(getString(R.string.l_credits))
                 .setIndicator(getString(R.string.l_credits))
-                .setContent(R.id.sv_credits));
+                .setContent(R.id.credits));
         tabHost.addTab(tabHost.newTabSpec(getString(R.string.l_license))
                 .setIndicator(getString(R.string.l_license))
-                .setContent(R.id.sv_license));
+                .setContent(R.id.license));
 
         // Add fourth tab only if "recent changes" information
         // has been provided
@@ -826,7 +826,7 @@ public class About extends TabActivity {
         if (hasRecentChanges(packagename, intent)) {
 	        tabHost.addTab(tabHost.newTabSpec(getString(R.string.l_recent_changes))
 	                .setIndicator(getString(R.string.l_recent_changes))
-	                .setContent(R.id.sv_recent_changes));
+	                .setContent(R.id.recent_changes));
         }
         
         //Set the animations for the switchers
