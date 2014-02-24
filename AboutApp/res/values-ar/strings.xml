@@ -21,106 +21,106 @@
 */
 -->
 <resources>
-    
-	<!-- ***************************
-	     About information
-	     *************************** -->
-	
-	<!-- Automatically filled in by Launchpad: -->
+
+    <!-- ***************************
+         About information
+         *************************** -->
+
+    <!-- Automatically filled in by Launchpad: -->
 	<string name="about_translators">Launchpad Contributions:
   OpenIntents devs https://launchpad.net/~openintents-devs
   kenn dhia https://launchpad.net/~kendhia</string>
-	
-	<!-- Explanation what this application does. It is a menu extension for other applications. -->
-	<string name="about_comments">نافذة عن مستقلة مشتركة بين التطبيقات.</string>
-	
-	<!-- ***************************
-	     Distribution
-	     *************************** -->
-	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_filemanager">مدير الملفات OI</string>
-	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_shopping">قائمة تسوقOI</string>
-	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_notepad">مفكرةOI</string>
-	<!-- Name of an application. Please make sure that translations are consistent. -->
-	<string name="info_app_safe">حماية OI</string>
-	
-	<!-- %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") -->
-	<string name="info_instructions">شغل %s ثم اختر القائمة &gt; عن</string>
-	
-	<!-- ***************************
-	     Applicatio-specific strings
-	     *************************** -->
-	<!-- Application name. Can be localized, like "OI About", or "OI Info". 
-	   This is an extension that shows an about dialog or info dialog.  -->
+
+    <!-- Explanation what this application does. It is a menu extension for other applications. -->
+    <string name="about_comments">نافذة عن مستقلة مشتركة بين التطبيقات.</string>
+
+    <!-- ***************************
+         Distribution
+         *************************** -->
+    <!-- Name of an application. Please make sure that translations are consistent. -->
+    <string name="info_app_filemanager">مدير الملفات OI</string>
+    <!-- Name of an application. Please make sure that translations are consistent. -->
+    <string name="info_app_shopping">قائمة تسوقOI</string>
+    <!-- Name of an application. Please make sure that translations are consistent. -->
+    <string name="info_app_notepad">مفكرةOI</string>
+    <!-- Name of an application. Please make sure that translations are consistent. -->
+    <string name="info_app_safe">حماية OI</string>
+
+    <!-- %s is the name of an application (e.g. "Launch OI Notepad and select menu > About.") -->
+    <string name="info_instructions">شغل %s ثم اختر القائمة &gt; عن</string>
+
+    <!-- ***************************
+         Applicatio-specific strings
+         *************************** -->
+    <!-- Application name. Can be localized, like "OI About", or "OI Info".
+       This is an extension that shows an about dialog or info dialog.  -->
     <string name="app_name">عن OI</string>
-	
+
     <string name="menu_about">عن OI عن نفسه</string>
-    
+
     <!-- About some application, where "%s" is the name of another application. -->
     <string name="about_activity_name_extended">عن %s</string>
-    
-	<string name="l_authors">كتبت بواسطة</string>
-	<string name="l_documenters">وثقت بواسطة</string>
-	<string name="l_translators">ترجمت بواسطة</string>
-	<string name="l_artists">العمل الفني بواسطة</string>
-	<string name="l_international_translators">الترجمات العالمية بواسطة</string>
-	<string name="l_credits">المشاركون</string>
-	<string name="l_license">الرخصة</string>
-	<string name="l_info">معلومات عامة</string>
-	<string name="l_recent_changes">التغييرات الأخيرة</string>
-	
-	<string name="no_information_available">لا توجد أي معلومة متوفرة.</string>
-	
-	<!-- ***************************
-	     International languages
-	     *************************** -->
-	<!-- Language names. -->
+
+    <string name="l_authors">كتبت بواسطة</string>
+    <string name="l_documenters">وثقت بواسطة</string>
+    <string name="l_translators">ترجمت بواسطة</string>
+    <string name="l_artists">العمل الفني بواسطة</string>
+    <string name="l_international_translators">الترجمات العالمية بواسطة</string>
+    <string name="l_credits">المشاركون</string>
+    <string name="l_license">الرخصة</string>
+    <string name="l_info">معلومات عامة</string>
+    <string name="l_recent_changes">التغييرات الأخيرة</string>
+
+    <string name="no_information_available">لا توجد أي معلومة متوفرة.</string>
+
+    <!-- ***************************
+         International languages
+         *************************** -->
+    <!-- Language names. -->
     <string-array name="language_names">
-		<item>العربية</item>
-		<item>البيلاروسية</item>
-		<item>البلغارية</item>
-		<item>الكاتالونية</item>
-		<item>التشيكية</item>
-		<item>الدنماركية</item>
-		<item>الألمانية</item>
-		<item>اليونانية</item>
-		<item>الانجليزية</item>
-		<item>اﻻنجليزية (المملكة المتحدة)</item>
-		<item>الاسبانية</item>
-		<item>الفارسية</item>
-		<item>الفنلندية</item>
-		<item>الفرنسية</item>
-		<item>الفرنسية</item>
-		<item>الهندية</item>
-		<item>الكرواتية</item>
-		<item>الهنغارية</item>
-		<item>الإيطالية</item>
-		<item>العبرية</item>
-		<item>اليابانية</item>
-		<item>الكورية</item>
-		<item>اﻻوسية</item>
-		<item>اللاتفية</item>
-		<item>المقدونية</item>
-		<item>نرويجية بوكمال</item>
-		<item>الهولندية</item>
-		<item>الأوكيتانية (post 1500)</item>
-		<item>البنجابية</item>
-		<item>البولندية</item>
-		<item>البرتغالية</item>
-		<item>البرتغالية البرازيلية</item>
-		<item>الرومانية</item>
-		<item>الروسية</item>
-		<item>الساردينية</item>
-		<item>السندية</item>
-		<item>السلوفاكية</item>
-		<item>السلوفينية</item>
-		<item>السويدية</item>
-		<item>التاغالوغية</item>
-		<item>التركية</item>
-		<item>اﻻوغورية</item>
-		<item>الصينية (البسيطة)</item>
-		<item>الصينية (القديمة)</item>
-	</string-array>
+        <item>العربية</item>
+        <item>البيلاروسية</item>
+        <item>البلغارية</item>
+        <item>الكاتالونية</item>
+        <item>التشيكية</item>
+        <item>الدنماركية</item>
+        <item>الألمانية</item>
+        <item>اليونانية</item>
+        <item>الانجليزية</item>
+        <item>اﻻنجليزية (المملكة المتحدة)</item>
+        <item>الاسبانية</item>
+        <item>الفارسية</item>
+        <item>الفنلندية</item>
+        <item>الفرنسية</item>
+        <item>الفرنسية</item>
+        <item>الهندية</item>
+        <item>الكرواتية</item>
+        <item>الهنغارية</item>
+        <item>الإيطالية</item>
+        <item>العبرية</item>
+        <item>اليابانية</item>
+        <item>الكورية</item>
+        <item>اﻻوسية</item>
+        <item>اللاتفية</item>
+        <item>المقدونية</item>
+        <item>نرويجية بوكمال</item>
+        <item>الهولندية</item>
+        <item>الأوكيتانية (post 1500)</item>
+        <item>البنجابية</item>
+        <item>البولندية</item>
+        <item>البرتغالية</item>
+        <item>البرتغالية البرازيلية</item>
+        <item>الرومانية</item>
+        <item>الروسية</item>
+        <item>الساردينية</item>
+        <item>السندية</item>
+        <item>السلوفاكية</item>
+        <item>السلوفينية</item>
+        <item>السويدية</item>
+        <item>التاغالوغية</item>
+        <item>التركية</item>
+        <item>اﻻوغورية</item>
+        <item>الصينية (البسيطة)</item>
+        <item>الصينية (القديمة)</item>
+    </string-array>
 </resources>

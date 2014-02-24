@@ -1,10 +1,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="8dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="4dp" >
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="8dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="4dp">
 
     <LinearLayout
         android:id="@+id/top"
@@ -12,27 +12,27 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:gravity="center_vertical"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <ImageSwitcher
             android:id="@+id/i_logo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dip"
-            android:paddingBottom="15sp" >
+            android:paddingBottom="15sp">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:scaleType="centerInside" >
+                android:scaleType="centerInside">
             </ImageView>
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:scaleType="centerInside" >
+                android:scaleType="centerInside">
             </ImageView>
         </ImageSwitcher>
 
@@ -45,7 +45,7 @@
         <TextSwitcher
             android:id="@+id/t_program_name_and_version"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
             <org.openintents.about.view.RobotoLightTextView style="@style/all_title" />
 
@@ -67,7 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" >
+        android:layout_centerHorizontal="true">
 
         <TextView style="@style/info_email_copyright_website" />
 
@@ -80,7 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/t_email"
         android:layout_alignWithParentIfMissing="true"
-        android:layout_centerHorizontal="true" >
+        android:layout_centerHorizontal="true">
 
         <TextView
             style="@style/info_email_copyright_website"
@@ -96,7 +96,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/t_website"
-        android:layout_centerHorizontal="true" >
+        android:layout_centerHorizontal="true">
 
         <TextView style="@style/info_email_copyright_website" />
 
@@ -116,12 +116,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/bottom_separator"
-        android:layout_below="@id/top_separator" >
+        android:layout_below="@id/top_separator">
 
         <TextSwitcher
             android:id="@+id/t_comments"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content">
 
             <TextView style="@style/info_comments" />
 
