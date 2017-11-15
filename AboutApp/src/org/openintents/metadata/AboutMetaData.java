@@ -22,211 +22,205 @@ package org.openintents.metadata;
 
 /**
  * Metadata definition belonging to OI About.
- * 
- * @version 2009-Jan-08
- * @version 2011-02-07: Add Metadata for recent changes.
- * 
+ *
  * @author pjv
  * @author Peli
- *
+ * @version 2011-02-07: Add Metadata for recent changes.
  */
 public final class AboutMetaData {
-	
-	/**
-	 * Empty, preventing instantiation.
-	 */
-	private AboutMetaData() {
-		//Empty, preventing instantiation.
-	}
 
-	/**
-	 * Application metadata: Comments about the program.
-	 * 
-	 * <p>Usage example:
-	 * <code>&lt;meta-data 
-	 * android:name="org.openintents.metadata.COMMENTS"
-	 * android:value="@string/about_comments" /&gt;</code>
-	 * </p>
-	 * 
-	 * <p>
-	 * This key matches with AboutIntents.EXTRA_COMMENTS.
-	 * </p>
-	 * 
-	 * <p>
-	 * Constant Value: "org.openintents.metadata.COMMENTS"
-	 * </p>
-	 */
-	public static final String METADATA_COMMENTS = 
-		"org.openintents.metadata.COMMENTS";
-	
-	/**
-	 * Application metadata: Copyright information for the program.
-	 * 
-	 * <p>Usage example:
-	 * <code>&lt;meta-data 
-	 * android:name="org.openintents.metadata.COPYRIGHT"
-	 * android:value="@string/about_comments" /&gt;</code>
-	 * </p>
-	 * 
-	 * <p>
-	 * This key matches with AboutIntents.EXTRA_COPYRIGHT.
-	 * </p>
-	 * 
-	 * <p>
-	 * Constant Value: "org.openintents.metadata.COPYRIGHT"
-	 * </p>
-	 */
-	public static final String METADATA_COPYRIGHT = 
-		"org.openintents.metadata.COPYRIGHT";
-	
-	/**
-	 * Application metadata: The URL for the link to the website of the program.
-	 * 
-	 * <p>
-	 * This key matches with AboutIntents.EXTRA_WEBSITE_URL.
-	 * </p>
-	 * 
-	 * <p>
-	 * Constant Value: "org.openintents.metadata.WEBSITE_URL"
-	 * </p>
-	 */
-	public static final String METADATA_WEBSITE_URL = 
-		"org.openintents.metadata.WEBSITE_URL";
-	
-	/**
-	 * Application metadata: The label for the link to the website of the
-	 * program. 
-	 * 
-	 * <p>
-	 * This key matches with AboutIntents.EXTRA_WEBSITE_LABEL.
-	 * </p>
-	 * 
-	 * <p>
-	 * Constant Value: "org.openintents.metadata.WEBSITE_LABEL"
-	 * </p>
-	 */
-	public static final String METADATA_WEBSITE_LABEL = 
-		"org.openintents.metadata.WEBSITE_LABEL";
-	
-	/**
-	 * Application metadata: The authors of the program, as an array of strings.
-	 * 
-	 * <p>Usage example:
-	 * <code>&lt;meta-data 
-	 * android:name="org.openintents.metadata.AUTHORS"
-	 * android:resource="@array/about_authors" /&gt;</code>
-	 * </p>
-	 * 
-	 * <p>
-	 * This key matches with AboutIntents.EXTRA_AUTHORS.
-	 * </p>
-	 * 
-	 * <p>
-	 * Constant Value: "org.openintents.metadata.AUTHORS"
-	 * </p>
-	 */
-	public static final String METADATA_AUTHORS = "org.openintents.metadata.AUTHORS";
-	
-	/**
-	 * Application metadata: The people documenting the program, as an array of
-	 * strings.
-	 * 
-	 * <p>
-	 * This key matches with AboutIntents.EXTRA_DOCUMENTERS.
-	 * </p>
-	 * 
-	 * <p>
-	 * Constant Value: "org.openintents.metadata.DOCUMENTERS"
-	 * </p>
-	 */
-	public static final String METADATA_DOCUMENTERS = 
-		"org.openintents.metadata.DOCUMENTERS";
-	
-	/**
-	 * Application metadata:: The people who made the translation for the current
-	 * localization, as an array of strings.
-	 * 
-	 * <p>
-	 * This key matches with AboutIntents.EXTRA_TRANSLATORS.
-	 * </p>
-	 * 
-	 * <p>
-	 * Constant Value: "org.openintents.metadata.TRANSLATORS"
-	 * </p>
-	 */
-	public static final String METADATA_TRANSLATORS = 
-		"org.openintents.metadata.TRANSLATORS";
-	
-	/**
-	 * Application metadata: The people who contributed artwork to the program,
-	 * as an array of strings.
-	 * 
-	 * <p>
-	 * This key matches with AboutIntents.EXTRA_ARTISTS.
-	 * </p>
-	 * 
-	 * <p>
-	 * Constant Value: "org.openintents.metadata.ARTISTS"
-	 * </p>
-	 */
-	public static final String METADATA_ARTISTS = "org.openintents.metadata.ARTISTS";
-	
-	/**
-	 * Application metadata: The raw resource containing the license of the program. 
-	 * 
-	 * <p>
-	 * This key matches with AboutIntents.EXTRA_LICENSE_RESOURCE.
-	 * </p>
-	 * 
-	 * <p>
-	 * Constant Value: "org.openintents.metadata.LICENSE"
-	 * </p>
-	 */
-	public static final String METADATA_LICENSE = "org.openintents.metadata.LICENSE";
+    /**
+     * Empty, preventing instantiation.
+     */
+    private AboutMetaData() {
+        //Empty, preventing instantiation.
+    }
 
-	/**
-	 * Application metadata: The primary email address for this application.
-	 * 
-	 * <p>
-	 * This key matches with AboutIntents.EXTRA_EMAIL.
-	 * </p>
-	 * 
-	 * <p>
-	 * Constant Value: "org.openintents.metadata.EMAIL"
-	 * </p>
-	 */
-	public static final String METADATA_EMAIL = "org.openintents.metadata.EMAIL";
+    /**
+     * Application metadata: Comments about the program.
+     * <p/>
+     * <p>Usage example:
+     * <code>&lt;meta-data
+     * android:name="org.openintents.metadata.COMMENTS"
+     * android:value="@string/about_comments" /&gt;</code>
+     * </p>
+     * <p/>
+     * <p>
+     * This key matches with AboutIntents.EXTRA_COMMENTS.
+     * </p>
+     * <p/>
+     * <p>
+     * Constant Value: "org.openintents.metadata.COMMENTS"
+     * </p>
+     */
+    public static final String METADATA_COMMENTS =
+            "org.openintents.metadata.COMMENTS";
 
-	/**
-	 * Application metadata: The raw resource containing the license of the program. 
-	 * 
-	 * <p>
-	 * This key matches with AboutIntents.EXTRA_RECENT_CHANGES_RESOURCE.
-	 * </p>
-	 * 
-	 * <p>
-	 * Constant Value: "org.openintents.metadata.RECENT_CHANGES"
-	 * </p>
-	 */
-	 
+    /**
+     * Application metadata: Copyright information for the program.
+     * <p/>
+     * <p>Usage example:
+     * <code>&lt;meta-data
+     * android:name="org.openintents.metadata.COPYRIGHT"
+     * android:value="@string/about_comments" /&gt;</code>
+     * </p>
+     * <p/>
+     * <p>
+     * This key matches with AboutIntents.EXTRA_COPYRIGHT.
+     * </p>
+     * <p/>
+     * <p>
+     * Constant Value: "org.openintents.metadata.COPYRIGHT"
+     * </p>
+     */
+    public static final String METADATA_COPYRIGHT =
+            "org.openintents.metadata.COPYRIGHT";
 
-	public static final String METADATA_RECENT_CHANGES = "org.openintents.metadata.RECENT_CHANGES";
-		/**
-		 * Application metadata: The xml resource containing the file with other About metadata.
-		 * When found, all other metadata in manifest are ignored.
-		 * 
-		 * <p>
-		 * This key doesn't match with any AboutIntents constant.
-		 * </p>
-		 * 
-		 * <p>
-		 * Constant Value: "org.openintents.about"
-		 * </p>
-		 */
-		public static final String METADATA_ABOUT = "org.openintents.about";
-	 
-	 
-	 
-	 
+    /**
+     * Application metadata: The URL for the link to the website of the program.
+     * <p/>
+     * <p>
+     * This key matches with AboutIntents.EXTRA_WEBSITE_URL.
+     * </p>
+     * <p/>
+     * <p>
+     * Constant Value: "org.openintents.metadata.WEBSITE_URL"
+     * </p>
+     */
+    public static final String METADATA_WEBSITE_URL =
+            "org.openintents.metadata.WEBSITE_URL";
+
+    /**
+     * Application metadata: The label for the link to the website of the
+     * program.
+     * <p/>
+     * <p>
+     * This key matches with AboutIntents.EXTRA_WEBSITE_LABEL.
+     * </p>
+     * <p/>
+     * <p>
+     * Constant Value: "org.openintents.metadata.WEBSITE_LABEL"
+     * </p>
+     */
+    public static final String METADATA_WEBSITE_LABEL =
+            "org.openintents.metadata.WEBSITE_LABEL";
+
+    /**
+     * Application metadata: The authors of the program, as an array of strings.
+     * <p/>
+     * <p>Usage example:
+     * <code>&lt;meta-data
+     * android:name="org.openintents.metadata.AUTHORS"
+     * android:resource="@array/about_authors" /&gt;</code>
+     * </p>
+     * <p/>
+     * <p>
+     * This key matches with AboutIntents.EXTRA_AUTHORS.
+     * </p>
+     * <p/>
+     * <p>
+     * Constant Value: "org.openintents.metadata.AUTHORS"
+     * </p>
+     */
+    public static final String METADATA_AUTHORS = "org.openintents.metadata.AUTHORS";
+
+    /**
+     * Application metadata: The people documenting the program, as an array of
+     * strings.
+     * <p/>
+     * <p>
+     * This key matches with AboutIntents.EXTRA_DOCUMENTERS.
+     * </p>
+     * <p/>
+     * <p>
+     * Constant Value: "org.openintents.metadata.DOCUMENTERS"
+     * </p>
+     */
+    public static final String METADATA_DOCUMENTERS =
+            "org.openintents.metadata.DOCUMENTERS";
+
+    /**
+     * Application metadata:: The people who made the translation for the current
+     * localization, as an array of strings.
+     * <p/>
+     * <p>
+     * This key matches with AboutIntents.EXTRA_TRANSLATORS.
+     * </p>
+     * <p/>
+     * <p>
+     * Constant Value: "org.openintents.metadata.TRANSLATORS"
+     * </p>
+     */
+    public static final String METADATA_TRANSLATORS =
+            "org.openintents.metadata.TRANSLATORS";
+
+    /**
+     * Application metadata: The people who contributed artwork to the program,
+     * as an array of strings.
+     * <p/>
+     * <p>
+     * This key matches with AboutIntents.EXTRA_ARTISTS.
+     * </p>
+     * <p/>
+     * <p>
+     * Constant Value: "org.openintents.metadata.ARTISTS"
+     * </p>
+     */
+    public static final String METADATA_ARTISTS = "org.openintents.metadata.ARTISTS";
+
+    /**
+     * Application metadata: The raw resource containing the license of the program.
+     * <p/>
+     * <p>
+     * This key matches with AboutIntents.EXTRA_LICENSE_RESOURCE.
+     * </p>
+     * <p/>
+     * <p>
+     * Constant Value: "org.openintents.metadata.LICENSE"
+     * </p>
+     */
+    public static final String METADATA_LICENSE = "org.openintents.metadata.LICENSE";
+
+    /**
+     * Application metadata: The primary email address for this application.
+     * <p/>
+     * <p>
+     * This key matches with AboutIntents.EXTRA_EMAIL.
+     * </p>
+     * <p/>
+     * <p>
+     * Constant Value: "org.openintents.metadata.EMAIL"
+     * </p>
+     */
+    public static final String METADATA_EMAIL = "org.openintents.metadata.EMAIL";
+
+    /**
+     * Application metadata: The raw resource containing the license of the program.
+     * <p/>
+     * <p>
+     * This key matches with AboutIntents.EXTRA_RECENT_CHANGES_RESOURCE.
+     * </p>
+     * <p/>
+     * <p>
+     * Constant Value: "org.openintents.metadata.RECENT_CHANGES"
+     * </p>
+     */
+
+
+    public static final String METADATA_RECENT_CHANGES = "org.openintents.metadata.RECENT_CHANGES";
+    /**
+     * Application metadata: The xml resource containing the file with other About metadata.
+     * When found, all other metadata in manifest are ignored.
+     * <p/>
+     * <p>
+     * This key doesn't match with any AboutIntents constant.
+     * </p>
+     * <p/>
+     * <p>
+     * Constant Value: "org.openintents.about"
+     * </p>
+     */
+    public static final String METADATA_ABOUT = "org.openintents.about";
+
 
 }
