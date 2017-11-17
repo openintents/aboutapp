@@ -1,0 +1,19 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion global_compileSdkVersion
+    buildToolsVersion global_buildToolsVersion
+
+    defaultConfig {
+        applicationId "org.openintents.about.demo"
+
+        minSdkVersion global_minSdkVersion
+        targetSdkVersion global_targetSdkVersion
+
+        versionCode 2
+        versionName "1.0.1"
+        archivesBaseName = "oi-about-demo-$versionName"
+
+    }
+}

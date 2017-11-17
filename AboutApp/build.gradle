@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion global_compileSdkVersion
+    buildToolsVersion global_buildToolsVersion
+
+    defaultConfig {
+        applicationId "org.openintents.about"
+
+        minSdkVersion global_minSdkVersion
+        targetSdkVersion global_targetSdkVersion
+
+        versionCode 9
+        versionName "1.1"
+        archivesBaseName = "oi-about-$versionName"
+
+    }
+}
+
+dependencies {
+    implementation 'com.github.openintents:distribution:1.2.2'
+}
